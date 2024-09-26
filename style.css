@@ -1,0 +1,68 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('bbq.jpg');
+    background-size: 300px 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-weight: bold;
+}
+
+form {
+    background: rgb(244, 242, 242);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    
+    
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    
+    padding: 10px 20px;
+    background-color: rgb(179, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;  
+}
+
+button:hover {
+    background-color: rgb(252, 0, 0);
+}
+
+div{
+     text-align: center;
+    padding: 10px;
+
+}
+.resultado{
+    text-align: left;
+}
